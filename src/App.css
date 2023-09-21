@@ -1,0 +1,21 @@
+body{
+  background: linear-gradient(-50deg, #fa7c30 30%, rgba(0, 0, 0, 0) 30%);
+  margin: 30%;
+  
+  padding-left:40px ;
+}
+.numa{
+  color: rgb(216, 66, 153);
+}
+.numb{
+  color: orange;
+}
+.result{
+  color: rgb(19, 173, 140);
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
