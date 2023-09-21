@@ -16,6 +16,9 @@ const handleNum2 = (event) =>{
 const add = () => {
   setResult(num1 + num2)
 }
+const sub = () => {
+  setResult(num1 - num2)
+}
 
  console.log(typeof setNum1)
   return (
@@ -28,7 +31,9 @@ const add = () => {
     
 
     <div className='result'>Result: {result}</div>
-    <button className='add' onClick={add}>ADD</button>
+    
+    <div className='key'><button className='add' onClick={add}>ADD</button>
+    <button className='sub' onClick={sub}>SUB</button></div>
     
    
   

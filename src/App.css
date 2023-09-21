@@ -13,6 +13,14 @@ body{
 .result{
   color: rgb(19, 173, 140);
 }
+.key{
+  width: 120px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-evenly ;
+}
+ 
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
